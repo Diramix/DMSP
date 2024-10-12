@@ -429,9 +429,9 @@ function launchSplashWindow(startMinimized, widevineCDM) {
     frame: false,
     autoHideMenuBar: true,
     transparent: false,
-    resizable: true,
+    resizable: false,
     center: true,
-    show: false,
+    show: true,
     webPreferences: {
       nodeIntegration: false,
       sandbox: false,
