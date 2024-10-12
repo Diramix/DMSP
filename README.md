@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/b4f4e279-7b6c-4898-96f7-17b6d3277b9a)
+![Image](https://github.com/Diramix/DMSP/blob/main/doc/Preview-Image.jpg?raw=true)
 # Discord MEME SplashScreen Patcher
 
 > [!NOTE]
