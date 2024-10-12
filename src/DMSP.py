@@ -49,9 +49,28 @@ def main():
 
         break
 
+    print("Выберите вариацию патча:")
+    print("1. Normal - Анимация со звуком.")
+    print("2. Muted - Анимация без звука.")
+
+    while True:
+        variant_choice = input("Введите номер: ").strip()
+
+        if variant_choice == '1':
+            patch_dir = os.path.join(os.getcwd(), 'Patches', 'Normal')
+            break
+        elif variant_choice == '2':
+            patch_dir = os.path.join(os.getcwd(), 'Patches', 'Muted')
+            break
+        else:
+            print("Некорректный ввод. Пожалуйста, выберите 1 или 2.")
+
+    if not os.path.exists(patch_dir):
+        print(f"Папка для вариации патча не найдена.")
+        return
+
     asar_dir = os.path.dirname(asar_file)
     output_dir = os.path.join(asar_dir, 'asar_unpack')
-    patch_dir = os.path.join(os.getcwd(), 'patch')
 
     print("Проверка и закрытие запущенных процессов Discord...")
     close_discord()
