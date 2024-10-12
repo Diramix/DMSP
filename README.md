@@ -17,3 +17,11 @@
 ### Что даёт патч
 * Заменяет SplashScreen анимацию на видео из мема, которое стало распространятся после блокировки Discord в России.
 * Отключает увеличение таймаута после получения ошибки: Update failed.
+
+## DONATE
+Если вам понравилась программа и вы хотите поддержать её автора, то [**Welcome to Boosty!**](https://boosty.to/diramix)
+<p>
+    <a href="https://boosty.to/diramix">
+      <img width="300" alt="ᓚᘏᗢ котик ждёт твоей монетки" src="https://github.com/Diramix/DMSP/blob/main/doc/boosty_button.png?raw=true">
+    </a>
+</p>
